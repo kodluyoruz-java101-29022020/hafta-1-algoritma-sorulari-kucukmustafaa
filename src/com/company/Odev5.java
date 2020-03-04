@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Random;
 
-public class odev5 {
+public class Odev5 {
     public static void main(String[] args) {
         final int ustLimit=10000;
         int dizi[] = new int[100];

@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class odev1 {
+public class Odev1 {
     public static void main(String[] args) {
         final String sabit="cocuklar";
         System.out.print("bir kelime girin...: ");

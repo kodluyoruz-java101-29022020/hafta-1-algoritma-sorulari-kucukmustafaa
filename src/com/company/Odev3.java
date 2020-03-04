@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Random;
 
-public class odev3 {
+public class Odev3 {
     public static void main(String[] args) {
         double dizi[] =new double[100];
         Random rd=new Random();

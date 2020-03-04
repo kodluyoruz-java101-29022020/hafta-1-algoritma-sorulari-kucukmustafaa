@@ -1,6 +1,6 @@
 package com.company;
 
-public class odev6
+public class Odev6
 {
     public static void main(String[] args) {
         PDFDocument pdfDocument=new PDFDocument("merhaba bu dosya pdf dosyası");
@@ -39,9 +39,20 @@ class WordDocument
 class Printer
 {
      public static void printPDFDocument(PDFDocument pdfDocument){
-         System.out.println(pdfDocument.body);
+         if (pdfDocument == null) {
+             System.out.println("error :)");
+         }
+         else {
+             System.out.println(pdfDocument.body);
+         }
      }
      public static void printWordDocument(WordDocument wordDocument){
-         System.out.println(wordDocument.body);
+         if (wordDocument == null) {
+             System.out.println("error :)");
+         }
+         else {
+             System.out.println(wordDocument.body);
+         }
+
      }
 }
